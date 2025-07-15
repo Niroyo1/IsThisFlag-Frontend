@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  overflow: hidden;
+  font-family: 'Press Start 2P', monospace;
+}
+
+@theme {
+  --color-EerieBlack: #1E1E1E;
+  --color-Folly: #FF005D;
+  --color-ElectricBlue: #00EAFF;
+  --color-Turquoise: #16E0BD;
+  --color-Jonquil: #FFCC00;
+  --color-BattleShipGrey: #888888;
+}
+
+.steppedGradient {
+  background-image: linear-gradient(
+    to top,
+    #FFCC00 0%,
+    #FFCC00 12.5%,
+    #FFBF06 12.5%,
+    #FFBF06 25%,
+    #FF8F1C 25%,
+    #FF8F1C 37.5%,
+    #FF5F33 37.5%,
+    #FF5F33 50%,
+    #FF2F49 50%,
+    #FF2F49 62.5%,
+    #FF005D 62.5%,
+    #FF005D 100%
+  );
+}
