@@ -194,7 +194,7 @@ function GameScreen() {
   //#endregion
 
   return (
-    <div className="min-h-screen steppedGradient text-white flex flex-col items-center py-20 px-6 gap-5">
+    <div className="min-h-screen !overflow-auto steppedGradient text-white flex flex-col items-center py-8 px-6 gap-5">
 
       {/*Waiting for rival*/}
       {gameStatus === 'waiting' ? (
